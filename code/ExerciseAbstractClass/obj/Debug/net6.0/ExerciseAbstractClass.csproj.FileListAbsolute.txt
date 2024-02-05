@@ -1,0 +1,14 @@
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\bin\Debug\net6.0\ExerciseAbstractClass.exe
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\bin\Debug\net6.0\ExerciseAbstractClass.deps.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\bin\Debug\net6.0\ExerciseAbstractClass.runtimeconfig.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\bin\Debug\net6.0\ExerciseAbstractClass.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\bin\Debug\net6.0\ExerciseAbstractClass.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.AssemblyInfoInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.AssemblyInfo.cs
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.csproj.CoreCompileInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\refint\ExerciseAbstractClass.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ExerciseAbstractClass.genruntimeconfig.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\ExerciseAbstractClass\obj\Debug\net6.0\ref\ExerciseAbstractClass.dll
