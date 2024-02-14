@@ -1,0 +1,14 @@
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\bin\Debug\net6.0\CookiesCookBook.exe
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\bin\Debug\net6.0\CookiesCookBook.deps.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\bin\Debug\net6.0\CookiesCookBook.runtimeconfig.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\bin\Debug\net6.0\CookiesCookBook.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\bin\Debug\net6.0\CookiesCookBook.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.AssemblyInfoInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.AssemblyInfo.cs
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.csproj.CoreCompileInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\refint\CookiesCookBook.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\CookiesCookBook.genruntimeconfig.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\CookiesCookBook\obj\Debug\net6.0\ref\CookiesCookBook.dll
