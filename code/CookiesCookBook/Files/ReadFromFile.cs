@@ -1,4 +1,4 @@
-﻿namespace CookiesCookBook
+﻿namespace CookiesCookBook.Files
 {
     public class ReadFromFile
     {
@@ -13,14 +13,14 @@
             {
                 string fileContent = File.ReadAllText(txtPath);
 
-                return (fileContent.Length > 0);
+                return fileContent.Length > 0;
             }
 
             if (File.Exists(jsonPath))
             {
                 string fileContent = File.ReadAllText(jsonPath);
 
-                return (fileContent.Length > 0);
+                return fileContent.Length > 0;
             }
 
             return false;
