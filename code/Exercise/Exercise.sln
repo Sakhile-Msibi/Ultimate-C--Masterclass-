@@ -5,13 +5,15 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise", "Exercise.csproj", "{CAFAD7D6-14A8-4415-A481-F863757F4A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseAbstractClass", "..\ExerciseAbstractClass\ExerciseAbstractClass.csproj", "{C9076897-9BEC-4016-8078-EE150A0EA802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseAbstractClass", "..\ExerciseAbstractClass\ExerciseAbstractClass.csproj", "{C9076897-9BEC-4016-8078-EE150A0EA802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseExtendedMethods", "..\ExerciseExtendedMethods\ExerciseExtendedMethods.csproj", "{FA62F4D3-54A7-4B0B-B4A2-F896DC4F69EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseExtendedMethods", "..\ExerciseExtendedMethods\ExerciseExtendedMethods.csproj", "{FA62F4D3-54A7-4B0B-B4A2-F896DC4F69EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListExtention", "..\ListExtention\ListExtention.csproj", "{E82EAC50-778D-4B3A-B601-03C71F90B6A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListExtention", "..\ListExtention\ListExtention.csproj", "{E82EAC50-778D-4B3A-B601-03C71F90B6A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformInterface", "..\TransformInterface\TransformInterface.csproj", "{29E1F21C-7742-428E-AB01-BDFB4A70D6BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformInterface", "..\TransformInterface\TransformInterface.csproj", "{29E1F21C-7742-428E-AB01-BDFB4A70D6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONExample", "..\JSONExample\JSONExample.csproj", "{A3C251B9-8142-4B0A-AA27-44C97163947F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{29E1F21C-7742-428E-AB01-BDFB4A70D6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E1F21C-7742-428E-AB01-BDFB4A70D6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E1F21C-7742-428E-AB01-BDFB4A70D6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
