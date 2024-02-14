@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList", "TodoList.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "..\Calculator\Calculator.csproj", "{AE349301-E21F-4A96-A735-935FC681C6CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza", "..\Pizza\Pizza.csproj", "{2DB195C8-B43E-4B1A-B313-15C03959BB0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AE349301-E21F-4A96-A735-935FC681C6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE349301-E21F-4A96-A735-935FC681C6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE349301-E21F-4A96-A735-935FC681C6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB195C8-B43E-4B1A-B313-15C03959BB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB195C8-B43E-4B1A-B313-15C03959BB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB195C8-B43E-4B1A-B313-15C03959BB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB195C8-B43E-4B1A-B313-15C03959BB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
