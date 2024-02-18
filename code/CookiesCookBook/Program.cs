@@ -1,17 +1,12 @@
 ﻿using CookiesCookBook.Files;
 using CookiesCookBook.Ingredients;
 using System.Collections.Generic;
+using System.IO;
 
 namespace CookiesCookBook
 {
     public class CookiesCookBookProgram
     {
-        public void DisplayExistsingRecipes()
-        {
-            
-
-        }
-
         public void DisplayAvailableIngredients()
         {
             ListOfIngredients listOfIngredients = new ListOfIngredients();
@@ -36,20 +31,25 @@ namespace CookiesCookBook
             CookiesCookBookProgram cookiesCookBookProgram = new CookiesCookBookProgram();
             ListOfIngredients listOfIngredients = new ListOfIngredients();
             ReadFromFile readFromFile = new ReadFromFile();
+            SaveToFile saveToFile = new SaveToFile();
+            const string FILENAME = "recipes";
+            const FILEFORMAT Format = FILEFORMAT.txt;
 
             List<int> listOfRecipeIDs = listOfIngredients.GetListOfIngredientIDs(listOfIngredients.GetListOfIngredients());
             int recipeID = -1;
             bool isRecipeIDValid = false;
+            List<int> listOfRecipeIDsToBeSaved = new List<int>();
+            string fileName = $".\\{FILENAME}.{Format}";
 
-            do
-            {
+            //do
+            //{
                 if (readFromFile.DoesrecipeExists())
                 {
                     Console.WriteLine("Existsing recipes are: ");
 
                     Console.WriteLine("***** {reciprNumber} *****");
 
-                    cookiesCookBookProgram.DisplayExistsingRecipes();
+                    readFromFile.DisplayExistsingRecipes(fileName);
                 }
 
                 cookiesCookBookProgram.DisplayAvailableIngredients();
@@ -62,20 +62,28 @@ namespace CookiesCookBook
 
                     if (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID))
                     {
-                        AddRecipeToAFile();
+                        listOfRecipeIDsToBeSaved.Add(recipeID);
                     }
                 } while (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID));
 
-                if (readFromFile.DoesrecipeExists())
-                {
-                    Console.WriteLine("Recipe added:");
+                
 
-                    cookiesCookBookProgram.DisplayExistsingRecipes();
-                }
+            //} while (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID));
 
-            } while ();
+            if (listOfRecipeIDsToBeSaved.Count > 0)
+            {
+                
 
+                saveToFile.AddRecipeToAFile(listOfRecipeIDsToBeSaved, FILENAME, Format);
 
+                Console.WriteLine("Recipe added:");
+
+                readFromFile.DisplayExistsingRecipes(fileName);
+            }
+
+            
+
+            Console.WriteLine("Press any key to close.");
             Console.ReadKey();
         }
     }
