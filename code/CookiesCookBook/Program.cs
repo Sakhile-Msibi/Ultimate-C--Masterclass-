@@ -40,45 +40,46 @@ namespace CookiesCookBook
             bool isRecipeIDValid = false;
             List<int> listOfRecipeIDsToBeSaved = new List<int>();
             string fileName = $".\\{FILENAME}.{Format}";
+            bool isDisplayOldRecipes = false;
 
-            //do
-            //{
-                if (readFromFile.DoesrecipeExists())
-                {
-                    Console.WriteLine("Existsing recipes are: ");
 
-                    Console.WriteLine("***** {reciprNumber} *****");
+            if (readFromFile.DoesrecipeExists())
+            {
+                isDisplayOldRecipes = true;
 
-                    readFromFile.DisplayExistsingRecipes(fileName);
-                }
-
-                cookiesCookBookProgram.DisplayAvailableIngredients();
-
-                do
-                {
-                    cookiesCookBookProgram.DisplayAddIngredientMessage();
-
-                    isRecipeIDValid = int.TryParse(Console.ReadLine(), out recipeID);
-
-                    if (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID))
-                    {
-                        listOfRecipeIDsToBeSaved.Add(recipeID);
-                    }
-                } while (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID));
+                Console.WriteLine("Existsing recipes are: ");
 
                 
 
-            //} while (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID));
+                readFromFile.DisplayExistsingRecipes(fileName, isDisplayOldRecipes);
+                Console.WriteLine();
+            }
+
+            cookiesCookBookProgram.DisplayAvailableIngredients();
+
+            do
+            {
+                cookiesCookBookProgram.DisplayAddIngredientMessage();
+
+                isRecipeIDValid = int.TryParse(Console.ReadLine(), out recipeID);
+
+                if (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID))
+                {
+                    listOfRecipeIDsToBeSaved.Add(recipeID);
+                }
+            } while (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID));
+
+                
 
             if (listOfRecipeIDsToBeSaved.Count > 0)
             {
-                
+                isDisplayOldRecipes = false;
 
                 saveToFile.AddRecipeToAFile(listOfRecipeIDsToBeSaved, FILENAME, Format);
 
                 Console.WriteLine("Recipe added:");
 
-                readFromFile.DisplayExistsingRecipes(fileName);
+                readFromFile.DisplayExistsingRecipes(fileName, isDisplayOldRecipes);
             }
 
             

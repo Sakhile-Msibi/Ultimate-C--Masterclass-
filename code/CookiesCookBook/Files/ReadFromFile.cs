@@ -1,28 +1,44 @@
 ﻿using CookiesCookBook.Ingredients;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace CookiesCookBook.Files
 {
     public class ReadFromFile
     {
-        public void DisplayExistsingRecipes(string path)
+        public void DisplayExistsingRecipes(string path, bool isDisplayOldRecipes)
         {
             ListOfIngredients listOfIngredients = new ListOfIngredients();
+            StreamReader streamReader = new StreamReader(path);
 
             List<Ingredient> ingredients = listOfIngredients.GetListOfIngredients();
 
-            string recipe = File.ReadAllText(path);
+            string? recipe;
+            int recipeNumber = 0;
 
-            string[] strings = recipe.Split(',');
-
-            foreach (string s in strings)
+            while ((recipe = streamReader.ReadLine()) != null)
             {
-                foreach (Ingredient ingredient1 in ingredients)
+                recipe = recipe.TrimStart().TrimEnd();
+
+                string[] strings = recipe.Split(',');
+
+                if (isDisplayOldRecipes)
                 {
-                    if (Convert.ToInt32(s) == ingredient1.ID)
+                    recipeNumber++;
+
+                    Console.WriteLine($"***** {recipeNumber} *****");
+                }
+
+                foreach (string s in strings)
+                {
+                    foreach (Ingredient ingredient1 in ingredients)
                     {
-                        Console.WriteLine(ingredient1.Name + "." + ingredient1.PreparationInstructions);
-                        break;
+
+                        if (Convert.ToInt32(s) == ingredient1.ID)
+                        {
+                            Console.WriteLine(ingredient1.Name + "." + ingredient1.PreparationInstructions);
+                            break;
+                        }
                     }
                 }
             }
