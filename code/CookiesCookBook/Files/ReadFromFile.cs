@@ -1,4 +1,5 @@
 ﻿using CookiesCookBook.Ingredients;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
@@ -9,27 +10,79 @@ namespace CookiesCookBook.Files
         public void DisplayExistsingRecipes(string path, bool isDisplayOldRecipes)
         {
             ListOfIngredients listOfIngredients = new ListOfIngredients();
-            StreamReader streamReader = new StreamReader(path);
 
             List<Ingredient> ingredients = listOfIngredients.GetListOfIngredients();
 
             string? recipe;
             int recipeNumber = 0;
+            List<string> strings = new List<string>();
+            string fileFormat = "json";
+            List<List<string>> lists = new List<List<string>>();
 
-            while ((recipe = streamReader.ReadLine()) != null)
+            using (StreamReader streamReader = new StreamReader(path))
             {
-                recipe = recipe.TrimStart().TrimEnd();
-
-                string[] strings = recipe.Split(',');
-
-                if (isDisplayOldRecipes)
+                while ((recipe = streamReader.ReadLine()) != null)
                 {
-                    recipeNumber++;
+                    recipe = recipe.TrimStart().TrimEnd();
 
-                    Console.WriteLine($"***** {recipeNumber} *****");
+                    if (path.Contains(fileFormat))
+                    {
+                        recipe = recipe.Substring(recipe.IndexOf("[") + 1, recipe.LastIndexOf("]") - 1);
+
+                        if (recipe.Contains("]"))
+                        {
+                            while (recipe.Contains("]"))
+                            {
+                                lists.Add((recipe.Substring(recipe.IndexOf("[") + 1, recipe.IndexOf("]") - 1)).Split(',').ToList());
+
+                                try
+                                {
+                                    recipe = recipe.Substring(recipe.IndexOf("]") + 2);
+                                }
+                                catch
+                                {
+                                    break;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            lists.Add(recipe.Split(',').ToList());
+                        }
+                    }
+                    else
+                    {
+                        lists.Clear();
+                        lists.Add(recipe.Split(',').ToList());
+                    }
+
+                    if (isDisplayOldRecipes)
+                    {
+                        foreach (List<string> list in lists)
+                        {
+                            recipeNumber++;
+                            Console.WriteLine($"***** {recipeNumber} *****");
+
+                            foreach (string s in list)
+                            {
+                                foreach (Ingredient ingredient1 in ingredients)
+                                {
+                                    if (Convert.ToInt32(s) == ingredient1.ID)
+                                    {
+                                        Console.WriteLine(ingredient1.Name + "." + ingredient1.PreparationInstructions);
+                                        break;
+                                    }
+                                }
+                            }
+                            Console.WriteLine();
+                        }
+                    }
                 }
+            }
 
-                foreach (string s in strings)
+            if (!isDisplayOldRecipes)
+            {
+                foreach (string s in lists[^1])
                 {
                     foreach (Ingredient ingredient1 in ingredients)
                     {
