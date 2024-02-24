@@ -42,14 +42,12 @@ namespace CookiesCookBook
             string fileName = $".\\{FILENAME}.{Format}";
             bool isDisplayOldRecipes = false;
 
-
             if (readFromFile.DoesrecipeExists())
             {
                 isDisplayOldRecipes = true;
 
                 Console.WriteLine("Existsing recipes are: ");
-
-                
+                Console.WriteLine();
 
                 readFromFile.DisplayExistsingRecipes(fileName, isDisplayOldRecipes);
                 Console.WriteLine();
@@ -63,13 +61,12 @@ namespace CookiesCookBook
 
                 isRecipeIDValid = int.TryParse(Console.ReadLine(), out recipeID);
 
+                
                 if (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID))
                 {
                     listOfRecipeIDsToBeSaved.Add(recipeID);
                 }
-            } while (isRecipeIDValid && listOfRecipeIDs.Contains(recipeID));
-
-                
+            } while (isRecipeIDValid);
 
             if (listOfRecipeIDsToBeSaved.Count > 0)
             {
@@ -81,8 +78,10 @@ namespace CookiesCookBook
 
                 readFromFile.DisplayExistsingRecipes(fileName, isDisplayOldRecipes);
             }
-
-            
+            else
+            {
+                Console.WriteLine("No ingredients have been selected. Recipe will not be saved.");
+            }
 
             Console.WriteLine("Press any key to close.");
             Console.ReadKey();

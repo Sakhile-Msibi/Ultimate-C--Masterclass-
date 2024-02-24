@@ -4,7 +4,7 @@
     {
         public override int ID => 1;
 
-        public override string Name => "WhiteFlour";
+        public override string Name => "White flour";
 
         public override string PreparationInstructions => "Sieve. Add to other ingredients.";
     }
