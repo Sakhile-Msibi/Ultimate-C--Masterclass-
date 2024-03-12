@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListExtention", "..\ListExt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformInterface", "..\TransformInterface\TransformInterface.csproj", "{29E1F21C-7742-428E-AB01-BDFB4A70D6BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONExample", "..\JSONExample\JSONExample.csproj", "{A3C251B9-8142-4B0A-AA27-44C97163947F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONExample", "..\JSONExample\JSONExample.csproj", "{A3C251B9-8142-4B0A-AA27-44C97163947F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "..\Exceptions\Exceptions.csproj", "{BA2D84CD-F414-402A-8D62-E196EE8CEADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3C251B9-8142-4B0A-AA27-44C97163947F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2D84CD-F414-402A-8D62-E196EE8CEADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2D84CD-F414-402A-8D62-E196EE8CEADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2D84CD-F414-402A-8D62-E196EE8CEADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2D84CD-F414-402A-8D62-E196EE8CEADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
