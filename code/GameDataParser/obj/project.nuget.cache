@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EyJqsXnzao2w1D405cex1QkaVhfhQa6KCdIdSSnRRM5WM1r+4WsA6kUdVmQ+bKh2KxGJEVmGhn7c3fjCOEkYGQ==",
+  "dgSpecHash": "YhC8nfLmcPSj5EJalPmT9Xh1qPiEcFz/7gAH8wP08HKLkht2MH/UAtG4spUEYjkpZ3Jqy/ng9Ps2mkj+pC0Hmg==",
   "success": true,
   "projectFilePath": "C:\\Users\\SakhileMsibi\\Sakhile\\UpSkill\\Ultimate C# Masterclass\\code\\GameDataParser\\GameDataParser.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SakhileMsibi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

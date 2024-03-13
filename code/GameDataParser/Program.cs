@@ -13,9 +13,12 @@ namespace GameDataParser
 
         public static void App()
         {
+            FileValidation fileValidation = new FileValidation();
+
             bool isNameValid = false;
             bool isFileDataValid = false;
             bool isJsonFileNotEmpty = false;
+
             do
             {
                 Console.WriteLine("Enter the name of the file you want to read:");
@@ -24,11 +27,11 @@ namespace GameDataParser
 
                 if (!string.IsNullOrEmpty(fileNameEnteredByAUser))
                 {
-                    isNameValid = DoesFileExist(fileNameEnteredByAUser);
+                    isNameValid = fileValidation.DoesFileExist(fileNameEnteredByAUser);
 
                     if (isNameValid)
                     {
-                        isFileDataValid = IsFileDataValid();
+                        isFileDataValid = fileValidation.IsFileDataValid(fileNameEnteredByAUser);
                     }
                     else
                     {
@@ -67,10 +70,19 @@ namespace GameDataParser
                 }
                 else
                 {
-                    PrintInvalidFormatMessage();
+                    PrintInvalidFormatMessage(fileNameEnteredByAUser);
                 }
 
             } while (!isNameValid);
+        }
+
+        public static void PrintInvalidFormatMessage(string fileName)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"JSON in the {fileName}  was not in a valid format. JSON body:\n");
+            Console.WriteLine(File.ReadAllText(fileName));
+            Console.WriteLine("\nSorry! The application has experienced an unexpected error and will have to be closed.");
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
