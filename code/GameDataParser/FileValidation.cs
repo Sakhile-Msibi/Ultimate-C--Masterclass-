@@ -5,9 +5,9 @@ namespace GameDataParser
 {
     public class FileValidation
     {
-        public bool DoesFileExist(string fileName)
+        public bool DoesFileExist(string filepath)
         {
-            if (File.Exists(fileName))
+            if (File.Exists(filepath))
             {
                 return true;
             }
@@ -19,14 +19,21 @@ namespace GameDataParser
         {
             Logger logger = new Logger();
 
-            if (string.IsNullOrWhiteSpace(fileName)) { return false; }
-            fileName = fileName.Trim();
-            if ((fileName.StartsWith("{") && fileName.EndsWith("}")) || //For object
-                (fileName.StartsWith("[") && fileName.EndsWith("]"))) //For array
+            string fileContent = "";
+
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                fileContent = reader.ReadToEnd();
+            }
+
+                if (string.IsNullOrWhiteSpace(fileContent)) { return false; }
+            fileContent = fileContent.Trim();
+            if ((fileContent.StartsWith("{") && fileContent.EndsWith("}")) || //For object
+                (fileContent.StartsWith("[") && fileContent.EndsWith("]"))) //For array
             {
                 try
                 {
-                    var obj = JToken.Parse(fileName);
+                    var obj = JToken.Parse(fileContent);
                     return true;
                 }
                 catch (JsonReaderException jex)

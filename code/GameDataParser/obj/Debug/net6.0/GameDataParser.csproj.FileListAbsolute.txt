@@ -1,0 +1,17 @@
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\bin\Debug\net6.0\GameDataParser.exe
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\bin\Debug\net6.0\GameDataParser.deps.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\bin\Debug\net6.0\GameDataParser.runtimeconfig.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\bin\Debug\net6.0\GameDataParser.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\bin\Debug\net6.0\GameDataParser.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.csproj.AssemblyReference.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.AssemblyInfoInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.AssemblyInfo.cs
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.csproj.CoreCompileInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.csproj.CopyComplete
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\refint\GameDataParser.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\GameDataParser.genruntimeconfig.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\GameDataParser\obj\Debug\net6.0\ref\GameDataParser.dll

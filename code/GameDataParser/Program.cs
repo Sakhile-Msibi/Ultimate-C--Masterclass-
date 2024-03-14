@@ -8,16 +8,18 @@ namespace GameDataParser
         {
             App();
 
+            Console.WriteLine("Press any key to close");
             Console.ReadKey();
         }
 
         public static void App()
         {
             FileValidation fileValidation = new FileValidation();
+            ReadFromFile readFromFile = new ReadFromFile();
 
             bool isNameValid = false;
             bool isFileDataValid = false;
-            bool isJsonFileNotEmpty = false;
+            string filePath = string.Empty;
 
             do
             {
@@ -27,17 +29,19 @@ namespace GameDataParser
 
                 if (!string.IsNullOrEmpty(fileNameEnteredByAUser))
                 {
-                    isNameValid = fileValidation.DoesFileExist(fileNameEnteredByAUser);
+                    filePath = $".\\{fileNameEnteredByAUser}";
+
+                    isNameValid = fileValidation.DoesFileExist(filePath);
 
                     if (isNameValid)
                     {
-                        isFileDataValid = fileValidation.IsFileDataValid(fileNameEnteredByAUser);
+                        isFileDataValid = fileValidation.IsFileDataValid(filePath);
                     }
                     else
                     {
                         Console.WriteLine("File not found");
                         isNameValid = false;
-                        break;
+                        continue;
                     }
                 }
                 else
@@ -52,21 +56,12 @@ namespace GameDataParser
                     }
 
                     isNameValid = false;
-                    break;
+                    continue;
                 }
 
                 if (isFileDataValid)
                 {
-                    isJsonFileNotEmpty = IsJsonFileNotEmpty();
-
-                    if (isJsonFileNotEmpty)
-                    {
-                        LoadGames();
-                    }
-                    else
-                    {
-                        Console.WriteLine("No games are present in the input file.");
-                    }
+                    readFromFile.LoadGames(filePath);
                 }
                 else
                 {
