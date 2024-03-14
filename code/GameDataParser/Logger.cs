@@ -16,20 +16,20 @@
             {
                 fileContent = File.ReadAllText(fileName) + "\n";
 
-                fileContent += $"--------------------------------*Start*------------------------------------------";
-                fileContent += $"[{dateTime}]\n";
-                fileContent += $"Exception message: {msg}\n";
-                fileContent += $"Stack trace: {stackTrace}";
+                fileContent += $"--------------------------------*Start*------------------------------------------\n";
+                fileContent += $"[{dateTime}]\n\n";
+                fileContent += $"Exception message:\n {msg}\n\n";
+                fileContent += $"Stack trace:\n {stackTrace}\n";
                 fileContent += $"--------------------------------*End*--------------------------------------------";
 
                 File.WriteAllText(fileName, fileContent);
             }
             else
             {
-                fileContent += $"--------------------------------*Start*------------------------------------------";
-                fileContent += $"[{dateTime}]\n";
-                fileContent += $"Exception message: {msg}\n";
-                fileContent += $"Stack trace: {stackTrace}";
+                fileContent += $"--------------------------------*Start*------------------------------------------\n";
+                fileContent += $"[{dateTime}]\n\n";
+                fileContent += $"Exception message:\n {msg}\n\n";
+                fileContent += $"Stack trace:\n {stackTrace}\n";
                 fileContent += $"--------------------------------*End*--------------------------------------------";
 
                 File.WriteAllText(fileName, fileContent);
