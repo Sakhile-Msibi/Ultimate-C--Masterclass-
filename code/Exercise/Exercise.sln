@@ -15,9 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformInterface", "..\Tr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONExample", "..\JSONExample\JSONExample.csproj", "{A3C251B9-8142-4B0A-AA27-44C97163947F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "..\Exceptions\Exceptions.csproj", "{BA2D84CD-F414-402A-8D62-E196EE8CEADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "..\Exceptions\Exceptions.csproj", "{BA2D84CD-F414-402A-8D62-E196EE8CEADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDataParser", "..\GameDataParser\GameDataParser.csproj", "{1DE07E95-2DB8-42DC-8828-B4034A6D5C51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameDataParser", "..\GameDataParser\GameDataParser.csproj", "{1DE07E95-2DB8-42DC-8828-B4034A6D5C51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{CD1E4FEE-9BB8-40A0-BAB5-7157E0E6760A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestsTests", "..\UnitTestsTests\UnitTestsTests.csproj", "{71621BD9-0FE4-4217-A16A-B4CF96EEB0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciGenerator", "..\FibonacciGenerator\FibonacciGenerator.csproj", "{C7D28C70-EA38-46EF-9123-51C98741E916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciGeneratorTest", "..\FibonacciGeneratorTest\FibonacciGeneratorTest.csproj", "{A5B6A5DE-DCAA-4156-A537-9E49C6881059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{1DE07E95-2DB8-42DC-8828-B4034A6D5C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE07E95-2DB8-42DC-8828-B4034A6D5C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DE07E95-2DB8-42DC-8828-B4034A6D5C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1E4FEE-9BB8-40A0-BAB5-7157E0E6760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1E4FEE-9BB8-40A0-BAB5-7157E0E6760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1E4FEE-9BB8-40A0-BAB5-7157E0E6760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1E4FEE-9BB8-40A0-BAB5-7157E0E6760A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71621BD9-0FE4-4217-A16A-B4CF96EEB0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71621BD9-0FE4-4217-A16A-B4CF96EEB0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71621BD9-0FE4-4217-A16A-B4CF96EEB0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71621BD9-0FE4-4217-A16A-B4CF96EEB0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D28C70-EA38-46EF-9123-51C98741E916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D28C70-EA38-46EF-9123-51C98741E916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D28C70-EA38-46EF-9123-51C98741E916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D28C70-EA38-46EF-9123-51C98741E916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B6A5DE-DCAA-4156-A537-9E49C6881059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B6A5DE-DCAA-4156-A537-9E49C6881059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B6A5DE-DCAA-4156-A537-9E49C6881059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B6A5DE-DCAA-4156-A537-9E49C6881059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\bin\Debug\net6.0\FibonacciGenerator.exe
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\bin\Debug\net6.0\FibonacciGenerator.deps.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\bin\Debug\net6.0\FibonacciGenerator.runtimeconfig.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\bin\Debug\net6.0\FibonacciGenerator.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\bin\Debug\net6.0\FibonacciGenerator.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.AssemblyInfoInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.AssemblyInfo.cs
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.csproj.CoreCompileInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\refint\FibonacciGenerator.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\FibonacciGenerator.genruntimeconfig.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\FibonacciGenerator\obj\Debug\net6.0\ref\FibonacciGenerator.dll

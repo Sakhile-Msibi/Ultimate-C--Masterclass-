@@ -21,8 +21,8 @@ namespace JSONExample
             //string personJson = "{\"FirstName\":\"Sakhile\",\"LastName\":\"Msibi\",\"YearOfBirth\":1989}";
             //Person ? personFromJson = JsonSerializer.Deserialize<Person>(personJson);
 
-            Person person = new Programmer();
-            Console.WriteLine(person.Greet());
+            //Person person = new Programmer();
+            //Console.WriteLine(person.Greet());
 
             Console.ReadKey();
         }
