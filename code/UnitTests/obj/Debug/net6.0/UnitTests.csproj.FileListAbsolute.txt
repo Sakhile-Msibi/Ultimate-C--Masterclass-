@@ -1,0 +1,14 @@
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\bin\Debug\net6.0\UnitTests.exe
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\bin\Debug\net6.0\UnitTests.deps.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\bin\Debug\net6.0\UnitTests.runtimeconfig.json
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\bin\Debug\net6.0\UnitTests.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\bin\Debug\net6.0\UnitTests.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.AssemblyInfoInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.AssemblyInfo.cs
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\refint\UnitTests.dll
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.pdb
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\UnitTests.genruntimeconfig.cache
+C:\Users\SakhileMsibi\Sakhile\UpSkill\Ultimate C# Masterclass\code\UnitTests\obj\Debug\net6.0\ref\UnitTests.dll
